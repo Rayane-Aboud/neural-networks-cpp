@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/rayane-aboud/neural-networks-cpp/build",
+  "command": "/usr/bin/g++  -I/home/rayane-aboud/neural-networks-cpp/include -g -std=gnu++17 -o CMakeFiles/NeuralNet.dir/src/Sho3la.cpp.o -c /home/rayane-aboud/neural-networks-cpp/src/Sho3la.cpp",
+  "file": "/home/rayane-aboud/neural-networks-cpp/src/Sho3la.cpp",
+  "output": "CMakeFiles/NeuralNet.dir/src/Sho3la.cpp.o"
+},
+{
+  "directory": "/home/rayane-aboud/neural-networks-cpp/build",
+  "command": "/usr/bin/g++  -I/home/rayane-aboud/neural-networks-cpp/include -g -std=gnu++17 -o CMakeFiles/NeuralNet.dir/src/Sho3laActivationLayer.cpp.o -c /home/rayane-aboud/neural-networks-cpp/src/Sho3laActivationLayer.cpp",
+  "file": "/home/rayane-aboud/neural-networks-cpp/src/Sho3laActivationLayer.cpp",
+  "output": "CMakeFiles/NeuralNet.dir/src/Sho3laActivationLayer.cpp.o"
+},
+{
+  "directory": "/home/rayane-aboud/neural-networks-cpp/build",
+  "command": "/usr/bin/g++  -I/home/rayane-aboud/neural-networks-cpp/include -g -std=gnu++17 -o CMakeFiles/NeuralNet.dir/src/Sho3laDenseLayer.cpp.o -c /home/rayane-aboud/neural-networks-cpp/src/Sho3laDenseLayer.cpp",
+  "file": "/home/rayane-aboud/neural-networks-cpp/src/Sho3laDenseLayer.cpp",
+  "output": "CMakeFiles/NeuralNet.dir/src/Sho3laDenseLayer.cpp.o"
+},
+{
+  "directory": "/home/rayane-aboud/neural-networks-cpp/build",
+  "command": "/usr/bin/g++  -I/home/rayane-aboud/neural-networks-cpp/include -g -std=gnu++17 -o CMakeFiles/NeuralNet.dir/src/Utils.cpp.o -c /home/rayane-aboud/neural-networks-cpp/src/Utils.cpp",
+  "file": "/home/rayane-aboud/neural-networks-cpp/src/Utils.cpp",
+  "output": "CMakeFiles/NeuralNet.dir/src/Utils.cpp.o"
+},
+{
+  "directory": "/home/rayane-aboud/neural-networks-cpp/build",
+  "command": "/usr/bin/g++  -I/home/rayane-aboud/neural-networks-cpp/include -g -std=gnu++17 -o CMakeFiles/NeuralNet.dir/src/main.cpp.o -c /home/rayane-aboud/neural-networks-cpp/src/main.cpp",
+  "file": "/home/rayane-aboud/neural-networks-cpp/src/main.cpp",
+  "output": "CMakeFiles/NeuralNet.dir/src/main.cpp.o"
+}
+]

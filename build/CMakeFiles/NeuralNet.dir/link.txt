@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/NeuralNet.dir/src/Sho3la.cpp.o CMakeFiles/NeuralNet.dir/src/Sho3laActivationLayer.cpp.o CMakeFiles/NeuralNet.dir/src/Sho3laDenseLayer.cpp.o CMakeFiles/NeuralNet.dir/src/Utils.cpp.o CMakeFiles/NeuralNet.dir/src/main.cpp.o -o NeuralNet 
