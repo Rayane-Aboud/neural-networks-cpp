@@ -30,6 +30,7 @@ public:
     const std::vector<float>& getData() const { return data; }
 
 
+
     // Operations
     Sho3la operator+(const Sho3la& other) const;
     Sho3la& operator+=(const Sho3la& other);
@@ -45,6 +46,8 @@ public:
 };
 
 std::ostream& operator<<(std::ostream& os, const Sho3la& t);
+
+
 
 
 #endif

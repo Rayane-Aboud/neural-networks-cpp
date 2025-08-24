@@ -37,6 +37,7 @@ int main() {
         // Get output
         Sho3la output = dense.getOutput();
         output.print();
+        (input.dot(weights)+bias).print();
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
