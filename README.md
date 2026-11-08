@@ -1,18 +1,15 @@
 # Sho3la: a neural network library from scratch in C++
 
-I'm writing this small library to understand what PyTorch does under the hood. Everything is written by
-hand, without any machine learning framework: the tensors, the layers and the activations. The name
-*Sho3la* means "flame" in Algerian Arabic, a small nod to *Torch*.
+**Tensors, dense layers and activations written by hand, without any ML framework, to understand what PyTorch
+does under the hood.** (*Sho3la* is Algerian Arabic for "flame", a nod to *Torch*.)
 
-## What it can do so far
+## What is built
 
-- `Sho3la` is the tensor type. It has a shape with any number of dimensions, element-wise `+` and `-`
-  (and `+=`, `-=`), the matrix product `dot`, and `sum` along an axis. A bias can be added to a whole
-  batch at once.
-- `Sho3laDenseLayer` is a fully connected layer that computes `input · W + b` for a batch.
-- ReLU and Softmax are available as activation layers, and they share a common interface.
-
-Here is a small example:
+| Part | What it does |
+|---|---|
+| `Sho3la` tensor | N-dimensional shape, element-wise `+` / `-` (with `+=` / `-=`), matrix product `dot`, `sum` along an axis with `keepDims`, broadcasting a bias over a batch |
+| `Sho3laDenseLayer` | fully connected layer: `output = input · W + b` over a batch |
+| Activation layers | ReLU and Softmax, behind a common activation interface |
 
 ```cpp
 Sho3laDenseLayer dense(4, 2);           // 4 inputs, 2 neurons
@@ -24,7 +21,7 @@ dense.forward(batch);
 dense.getOutput().print();              // same result as batch.dot(W) + b
 ```
 
-## Building it
+## Build
 
 ```bash
 cmake -S . -B build
@@ -32,9 +29,9 @@ cmake --build build
 ./build/NeuralNet
 ```
 
-You need C++17 and CMake 3.10 or newer.
+C++17, CMake 3.10+.
 
-## What's next
+## Next
 
-I want to add the backward pass and gradient descent next, so I can train a small classifier from start
-to end. After that come the loss functions (cross-entropy and mean squared error).
+- Backward pass and gradient descent, then training a small classifier end to end
+- Loss functions (cross-entropy, MSE)
